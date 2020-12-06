@@ -37,7 +37,7 @@ export default class App extends Component{
       return (
           <div className="App">
               <header className="App-header">
-                  <Card bg="light" style={{ width: '18rem' }} text="dark" border="danger">
+                  <Card bg="secondary" style={{ width: '18rem' }} text="dark" border="danger">
                       <Card.Img variant="top" src={`http://openweathermap.org/img/wn/${this.state.result.weather[0].icon}@2x.png`} />
                       <Card.Body>
                           <Card.Title>{this.state.result.name}</Card.Title>
